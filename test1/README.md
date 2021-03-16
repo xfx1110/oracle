@@ -22,8 +22,8 @@
 ```
     查询语句1和2执行结果：由图可知查询语句2的执行效率比1高。
 ##### 
-<img src="../test1/test1_1.png">
-<img src="../test1/test1_2.png">
+![](test1_1.png)
+![](test1_2.png)
 #####
     第二种方法比第一种方法效率高，对第二种方法进行优化指导，没有给出优化建议，说明已是最优
 
@@ -43,8 +43,9 @@
     GROUP BY d.department_name;
 ```
        【运行结果及优化指导：】
-<img src="../test1/test1_4.png">
-<img src="../test1/test1_3.png">
+![](test1_3.png)
+![](test1_4.png)
+
 ##### 实验总结：
      通过本次实验，了解掌握了如何分析SQL执行计划，和用sqldeveloper执行SQL语句的优化指导。
      理解了分析SQL语句的执行计划的重要作用。除此之外，还学习了解了如何用Markdown格式来编写文档。
