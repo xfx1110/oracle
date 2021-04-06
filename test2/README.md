@@ -9,7 +9,7 @@
     (3)最后测试：用新用户new_user连接数据库、创建表，插入数据，创建视图，查询表和视图的数据。
 ##### 实验步骤：
 ``` sql
-（1）以system登录到pdborcl，创建角色dys_view和用户dys，并授权和分配空间：
+（1）以system登录到pdborcl，创建角色xfx_view和用户xfx，并授权和分配空间：
 
     CREATE ROLE xfx_view;
     GRANT connect,resource,CREATE VIEW TO xfx_view;
@@ -22,7 +22,7 @@
 ![](test2_2.png)
 ![](test2_3.png)
 ``` sql
- (2)新用户dys连接到pdborcl，创建表mytable和视图myview，插入数据，最后将myview的SELECT对象权限授予hr用户。
+ (2)新用户xfx连接到pdborcl，创建表mytable和视图myview，插入数据，最后将myview的SELECT对象权限授予hr用户。
 
     show user;
     CREATE TABLE mytable (id number,name varchar(50));
