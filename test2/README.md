@@ -39,7 +39,7 @@
 #####
 ``` sql
  (3)用户hr连接到pdborcl，查询new_user授予它的视图myview
-    SELECT * FROM dys.myview;
+    SELECT * FROM xfx.myview;
 ```
 
 ![](test2_7.png)
